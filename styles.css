@@ -1,3 +1,106 @@
+/*------------------------------------------------------------------------ H1 CSS STYLING ONLY ------------------------------------------------------------------------*/
+
+/* Non specific h1 Targeting - This targets all h1 elements and makes them all the same as the other h1 elements */
+h1 {
+    color: darkgoldenrod; /* changes font colour to gold - all fonts are black by default */
+    font-family: helvetica, arial; /* changes font family from times new roman to a better looking cleaner and friendly font */
+    margin-bottom: 5%; /* gives the h1 space underneath them */
+}
+
+
+
+
+
+/* This targets all h1 li (List Item) elements only with the layout. The styling with color and font family is taken from above which is targeting all h1 Elements 
+    Although the font size is different for this it is because the h1 are in an unordered list (ul) and this is why there is a change. */
+li {
+    list-style: none; /* removes bulletpoints from the li (List Item) tag */
+    display: inline-block; /* displays items in a row one afert another, rather than horizontially down the page one underneath the other */
+    margin-right: 300px; /* gives each item plenty of space between them */
+    margin-bottom: 5%; /* gives the h1 space underneath them */
+    font-size: 2em; /* Same size as all other h1 elements - This was removed from the h1 due to the h1 being placed inside a ul, li and added as a link */
+}
+
+li a {
+    text-decoration: none; /* removes the underline from the link */
+}
+a:hover h1 {
+    color: #fff; /* on hover state only - changes text to white */
+    background: #321D95; /* on hover state only - changes background to blue */
+    width: fit-content; /* shows and fits the blue background to the text width */
+    height: fit-content; /* shows and fits the blue background to the text height */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------ H2 CSS STYLING ONLY ------------------------------------------------------------------------*/
+
+
+/* Non specific h2 Targeting - This targets all h2 elements and makes them all the same as the other h2 elements */
+
+
+h2 {
+    color: #fd7900; /* changes font colour to orange - all fonts are black by default */
+    font-size: 1.8em; /* increases font size */
+    margin-bottom: .3em;  /* increases gap between one h2 and the other */
+    font-family: helvetica, arial; /* changes font family from times new roman to a better looking cleaner and friendly font */
+}
+
+
+
+
+/* Specific H2 targeting - This targets only the h2 with the class applied to it - see index.html for reference*/
+
+.h2-2  { 
+    color: #900; /* changes font colour from orange to red for only this h2 */
+    font-size: 2.19em; /* increases font size for only this h2 */
+
+}
+
+.h2-4{
+    color: #643; /* changes font colour from orange to brown for only this h2 */
+    font-size: 0.8em; /* reduces font size for only this h2 */
+    margin: 20px 50px; /* this spaces the 4th h2 - 20px top and bottom, 50px left and right side */
+}
+
+
+.h2-6 {
+    color: #123; /* changes font colour from orange to black for only this h2 */
+    font-weight: 900; /* changes font weight to black or heavy (depending on the font family) for only this h2 */
+}
+
+.h2-8 {
+    color: #321D95; /* changes font colour from orange to dark blue for only this h2 */
+    max-width: min-content; /* this has put every word on a sinle line for only this h2 */
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------ BUTTON CSS STYLING ONLY ------------------------------------------------------------------------*/
+
+
+/* Mostly taken from https://getbem.com/introduction/ with own coded added for hover state */
+
 .button {
     display: inline-block;
     border-radius: 3px;
