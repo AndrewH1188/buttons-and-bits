@@ -9,8 +9,6 @@ h1 {
 
 
 
-
-
 /* This targets all h1 li (List Item) elements only with the layout. The styling with color and font family is taken from above which is targeting all h1 Elements 
     Although the font size is different for this it is because the h1 are in an unordered list (ul) and this is why there is a change. */
 li {
@@ -36,12 +34,6 @@ a:hover h1 {
 
 
 
-
-
-
-
-
-
 /*------------------------------------------------------------------------ H2 CSS STYLING ONLY ------------------------------------------------------------------------*/
 
 
@@ -54,6 +46,7 @@ h2 {
     margin-bottom: .3em;  /* increases gap between one h2 and the other */
     font-family: helvetica, arial; /* changes font family from times new roman to a better looking cleaner and friendly font */
 }
+
 
 
 
@@ -87,15 +80,6 @@ h2 {
 
 
 
-
-
-
-
-
-
-
-
-
 /*------------------------------------------------------------------------ BUTTON CSS STYLING ONLY ------------------------------------------------------------------------*/
 
 
@@ -108,6 +92,8 @@ h2 {
     border: 1px solid #D5D5D5;
     background-image: linear-gradient(#EEE, #DDD);
     font: 700 13px/18px helvetica, arial;
+    margin-bottom: 5em;
+    margin-top: 5rem;
 }
 
 .button--state-success {
@@ -128,4 +114,29 @@ h2 {
 .button--state-danger:hover {
     background: #900;
     color: #fff;
+}
+
+
+
+
+
+/*------------------------------------------------------------------------ BOTTOM LINK STYLES ONLY ------------------------------------------------------------------------*/
+
+
+.github-links {
+    margin-left: 120px;
+    text-decoration: none;
+    padding: 1.9em;
+}
+
+.html:hover {
+    background: #e48203;
+    color: #fff;
+    padding: 1.9em;
+}
+
+.css:hover {
+    background: #0355e4;
+    color: #fff;
+    padding: 1.9em;
 }
